@@ -1,0 +1,65 @@
+html {
+    background-color: #080608;
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: sans-serif;
+    align-content: space-evenly;
+    justify-content: center;
+}
+
+#ui_content {
+    margin-inline: 30%; 
+    background-color: #242424;
+    border-radius: 4px;
+}
+
+#stats {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: white;
+}
+
+#ui_core {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 15px;
+}
+
+#question {
+    font-weight: bold;
+    color: white;
+    margin-inline: 30%;
+}
+
+#input_field {
+    background-color: white;
+    border-radius: 2%;
+    border-width: 5px;
+    border-color: black;
+    margin-inline: 25%;
+}
+
+#ui_core button {
+    background-color: rgb(0, 0, 68);
+    border-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5%;
+    border-width: 5px;
+    margin-inline: 45%;
+}
+
+#ui_core button:hover {
+    transition: background-color 0.3s ease;
+    background-color: aliceblue;
+    border-color: rgb(128, 128, 128);
+    color: black;
+}
