@@ -1,3 +1,5 @@
+_ = require("./fetchData.js").fetch_hanzidb();
+
 let score = 0;
 let lives = 3;
 let currentWord = "";
@@ -6,6 +8,7 @@ let correctDefinition = "";
 // Initialize UI events
 let scoreCounter = document.getElementById("score");
 let lifeCounter = document.getElementById("lives");
+
 
 // Load dictionary and initialize game
 fetch('../assets/dictionary.json')

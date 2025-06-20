@@ -1,0 +1,30 @@
+{
+  "name": "tangerine",
+  "version": "1.0.0",
+  "description": "App for studying Chinese letters (hanzi).",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anteroul/tangerine.git"
+  },
+  "keywords": [
+    "chinese",
+    "mandarin",
+    "learning",
+    "\"language",
+    "learning\"",
+    "\"learn",
+    "chinese\"",
+    "hanzi"
+  ],
+  "author": "anteroul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anteroul/tangerine/issues"
+  },
+  "homepage": "https://github.com/anteroul/tangerine#readme"
+}
