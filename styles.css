@@ -13,31 +13,43 @@ body {
     justify-content: center;
 }
 
+#debug {
+    padding: 8px;
+    background-color: #080608;
+    border-color: #2e2e2e;
+}
+
 #ui_content {
-    margin-inline: 30%; 
+    margin-inline: 30%;
     background-color: #242424;
     border-radius: 4px;
 }
 
 #stats {
-    padding-left: 25px;
+    font-size: clamp(8px, 1.8vw, 20px);
+    padding-left: 8%;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
     color: white;
 }
 
 #ui_core {
+    font-size: clamp(8px, 1.8vw, 20px);
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
+    text-align: center;
     gap: 15px;
 }
 
-#question {
-    font-weight: bold;
+#task {
+    font-weight: bolder;
     color: white;
-    margin-inline: 30%;
+}
+
+#question {
+    color: white;
 }
 
 #input_field {
@@ -45,7 +57,9 @@ body {
     border-radius: 2%;
     border-width: 5px;
     border-color: black;
-    margin-inline: 25%;
+    margin-inline: 10%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 #ui_core button {
@@ -54,7 +68,10 @@ body {
     color: white;
     border-radius: 5%;
     border-width: 5px;
-    margin-inline: 45%;
+    margin-inline: 28%;
+    font-weight: bold;
+    font-size: clamp(8px, 1.8vw, 15px);
+    padding: clamp(8px, 1.5vw, 12px) clamp(12px, 1.8vw, 16px); /* Ensure button remains usable on small screens */
 }
 
 #ui_core button:hover {

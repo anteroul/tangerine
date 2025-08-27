@@ -10,12 +10,14 @@
 </head>
 
 <body>
+    <button id="debug"></button>
     <br><br><br>
 
     <div id="ui_content">
 
         <div id="stats">
             <p>🏅 Score: </p><p id="score"></p>
+            <br>
             <p>❤️ Lives: </p><p id="lives"></p>
             <br><br>
         </div>
@@ -23,15 +25,19 @@
         <br><br>
         
         <div id="ui_core">
+            <p id="task">Write the following word in Pinyin script:</p>
+            <br>
             <p id="question"></p>
             <br>
             <input id="input_field" title="Enter your answer here"/>
+            <br>
             <button id="submit">Submit</button>
         </div>
 
         <br><br>
 
     </div>
+
     <script src="src/index.js" type="module"></script>
 </body>
 </html>
